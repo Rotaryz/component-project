@@ -1,23 +1,25 @@
-# component-project
+# component-project（组件库demo）
 
-## Project setup
+## 项目中使用
+```
+ npm install @rotary_z/component-project --save
+```
+
+
+## 项目初始化
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 打包组件包
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+npm run lib
 ```
 
-### Lints and fixes files
+
+### 上传发布到npm
 ```
-npm run lint
+npm publish
 ```
 
 ### Customize configuration
